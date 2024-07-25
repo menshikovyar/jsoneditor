@@ -1,0 +1,1568 @@
+{
+  "result": [
+      {
+          "id": "fa712181-a91a-4c71-bd9f-6236815ac8cd",
+          "number": 60,
+          "name": "Задания",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Задания"
+              },
+              "typePage": 4,
+              "visible": true,
+              "page": true,
+              "templateModule": "tasks"
+          },
+          "level": 1,
+          "children": null,
+          "tags": null,
+          "parentId": null
+      },
+      {
+          "id": "be12da7d-2a16-4b6e-82c9-44200303cdf8",
+          "number": 25,
+          "name": "Цепочка газов",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Цепочка газов"
+              },
+              "typePage": 4,
+              "visible": true
+          },
+          "level": 1,
+          "children": [
+              {
+                  "id": "07ee33b2-6649-4be9-bf86-d6b3adf108c9",
+                  "name": "Главный экран газовой цепочки",
+                  "number": 1,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Главный экран газовой цепочки"
+                      },
+                      "typePage": 5,
+                      "visible": true,
+                      "startNav": true
+                  },
+                  "level": 2,
+                  "revision": "fc25012f-c462-4b08-ad67-782314623cb1",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "fb90098a-508a-4a85-a69d-4594c894c799",
+                          "name": "Товарные резервуары",
+                          "number": 3,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Товарные резервуары"
+                              },
+                              "typePage": 6,
+                              "page": true,
+                              "visible": true,
+                              "templatePage": "pageWithTableBottom"
+                          },
+                          "level": 3,
+                          "revision": "56d40ca7-9fa5-452b-aed1-da44a13b3601",
+                          "tags": null
+                      },
+                      {
+                          "id": "bf3f1db7-2ede-486c-bd0a-46d23d5c893e",
+                          "name": "Экран выработки компонентов",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Экран выработки компонентов"
+                              },
+                              "typePage": 7,
+                              "page": true,
+                              "visible": true,
+                              "startNav": true,
+                              "templatePage": "componentProductionScreen",
+                              "startEditDatetime": "2024-05-20T09:41:49Z",
+                              "lastEditDatetime": "2024-05-21T06:38:13Z"
+                          },
+                          "level": 3,
+                          "revision": "de022e61-6c17-4362-8583-83cb76759f35",
+                          "tags": null
+                      },
+                      {
+                          "id": "5fba2b7a-3d1c-4ed8-96b0-23bedc7452af",
+                          "name": "Схема для главного экрана газовой цепочки",
+                          "number": 20,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема для главного экрана газовой цепочки"
+                              },
+                              "typePage": 2,
+                              "page": true,
+                              "visible": false,
+                              "startEditDatetime": "2024-05-20T08:01:46Z",
+                              "lastEditDatetime": "2024-05-20T08:02:40Z"
+                          },
+                          "level": 3,
+                          "revision": "9d3402ce-a49f-4fe7-98a6-fcb62a880c65",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "79372b3c-5490-41d1-91b1-9b99d7f73e52",
+                  "name": "Цепочка газов",
+                  "number": 2,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка газов"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "a0a98620-1242-43fd-a246-b5b1e3fc83d4",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "aa1a39d1-2523-4d49-a402-d67256720365",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "startEditDatetime": "2024-07-03T05:02:46Z",
+                              "lastEditDatetime": "2024-07-03T05:18:32Z"
+                          },
+                          "level": 3,
+                          "revision": "4f3b2c13-cbfd-4930-bfdc-b3ffa90c1c01",
+                          "tags": null
+                      },
+                      {
+                          "id": "80c7f061-c724-4033-82f0-44729d8c4b95",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "startEditDatetime": "2024-01-17T07:42:22Z",
+                              "lastEditDatetime": "2024-01-17T08:07:37Z"
+                          },
+                          "level": 3,
+                          "revision": "8a6e0cef-9791-4aa4-a38b-87670a20b79f",
+                          "tags": null
+                      }
+                  ]
+              }
+          ],
+          "tags": null,
+          "parentId": null
+      },
+      {
+          "id": "c8361e65-dbb3-416f-a18b-381cac57a56c",
+          "number": 30,
+          "name": "Цепочка темных",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Цепочка темных"
+              },
+              "typePage": 4,
+              "visible": true
+          },
+          "level": 1,
+          "children": [
+              {
+                  "id": "7b5d29f3-0dfd-41aa-9138-cb71b34076ed",
+                  "name": "Главный экран цепочки темных",
+                  "number": 1,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Главный экран цепочки темных"
+                      },
+                      "typePage": 5,
+                      "visible": true,
+                      "startNav": true
+                  },
+                  "level": 2,
+                  "revision": "1695c7e4-229a-44e4-8dc6-9b277b778bd8",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "5c35fea4-56f6-45fe-bf59-a31090613de2",
+                          "name": "Товарные резервуары",
+                          "number": 3,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Товарные резервуары"
+                              },
+                              "typePage": 6,
+                              "page": true,
+                              "visible": true,
+                              "templatePage": "pageWithTableBottom"
+                          },
+                          "level": 3,
+                          "revision": "addbf7ee-27c6-4546-8b00-eebbf866859e",
+                          "tags": null
+                      },
+                      {
+                          "id": "dd29bad1-014b-46a8-9c04-bbf0a67a239d",
+                          "name": "Схема для главного экрана цепочки темных",
+                          "number": 20,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема для главного экрана цепочки темных"
+                              },
+                              "typePage": 2,
+                              "page": true,
+                              "visible": false,
+                              "startEditDatetime": "2024-03-26T04:48:19Z",
+                              "lastEditDatetime": "2024-03-26T04:48:22Z"
+                          },
+                          "level": 3,
+                          "revision": "45c6b065-aadb-4c73-b456-c9e85b027a76",
+                          "tags": null
+                      },
+                      {
+                          "id": "dd89fde9-e073-4aaa-bf04-d68a588729c4",
+                          "name": "Экран выработки компонентов",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Экран выработки компонентов"
+                              },
+                              "typePage": 7,
+                              "page": true,
+                              "visible": true,
+                              "startNav": true,
+                              "templatePage": "componentProductionScreen",
+                              "startEditDatetime": "2024-05-21T07:24:08Z",
+                              "lastEditDatetime": "2024-05-21T07:35:53Z"
+                          },
+                          "level": 3,
+                          "revision": "69260852-737a-41f2-8085-ca77d15c2a36",
+                          "tags": null
+                      },
+                      {
+                          "id": "70680c88-d025-4bd9-8469-bd29b65ed256",
+                          "name": "Сырьевые резервуары",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Сырьевые резервуары"
+                              },
+                              "typePage": 6,
+                              "page": true,
+                              "visible": true,
+                              "templatePage": "pageWithTableBottom"
+                          },
+                          "level": 3,
+                          "revision": "0be697c6-310a-4632-bbd4-a53dcd232e14",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "27a94926-82da-4f81-b7dd-27b6175ffff9",
+                  "name": "Цепочка темных",
+                  "number": 2,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка темных"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "1c504832-d088-4c35-bfe2-de3f65b011da",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "9ff9a20c-cccb-4295-ac6f-4a518b3dc655",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "startEditDatetime": "2024-06-28T05:02:26Z",
+                              "lastEditDatetime": "2024-06-28T05:34:50Z"
+                          },
+                          "level": 3,
+                          "revision": "4d1902e9-a4db-4df4-8870-b4e35e5b069a",
+                          "tags": null
+                      },
+                      {
+                          "id": "2a38837a-d56f-47c8-bd66-63925b229a67",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "startEditDatetime": "2024-05-07T11:13:38Z",
+                              "lastEditDatetime": "2024-05-07T11:13:42Z"
+                          },
+                          "level": 3,
+                          "revision": "b05d4815-c050-4902-acdf-38b75dbd94e7",
+                          "tags": null
+                      }
+                  ]
+              }
+          ],
+          "tags": null,
+          "parentId": null
+      },
+      {
+          "id": "71beb02a-b488-4e56-904f-ebee85d90926",
+          "number": 1,
+          "name": "Бензиновая цепочка",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Бензиновая цепочка"
+              },
+              "typePage": 4,
+              "visible": true,
+              "startNav": true
+          },
+          "level": 1,
+          "children": [
+              {
+                  "id": "38cb51de-8bcc-4386-8b63-842d9942017d",
+                  "name": "Главный экран бензиновой цепочки",
+                  "number": 1,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Главный экран бензиновой цепочки"
+                      },
+                      "typePage": 5,
+                      "visible": true,
+                      "startNav": true
+                  },
+                  "level": 2,
+                  "revision": "b6ed5545-4810-4269-b61b-0664c6a0ccb0",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "085bcfcf-d2e8-4eb4-a169-eaa04c79bbd2",
+                          "name": "Резервуары компонентов автобензинов",
+                          "number": 3,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Резервуары компонентов автобензинов"
+                              },
+                              "typePage": 3,
+                              "oldPage": true,
+                              "visible": false,
+                              "page": true
+                          },
+                          "level": 3,
+                          "revision": "194b6a84-44aa-4eab-9907-96ed5b5eb3dc",
+                          "tags": null
+                      },
+                      {
+                          "id": "5318a7de-cc5f-4f64-a945-88cf7eaf7f4a",
+                          "name": "Резервуары товарных автобензинов",
+                          "number": 3,
+                          "visibility": "true",
+                          "cell": {
+                              "page": true
+                          },
+                          "level": 3,
+                          "revision": "1e0e80e3-c800-493a-8db7-fadc0c6bf31c",
+                          "tags": null
+                      },
+                      {
+                          "id": "c42c2f86-ccf7-4229-833b-a4c894e9c4e7",
+                          "name": "Контроль приготовления партии (Старый экран)",
+                          "number": 20,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Контроль приготовления партии (Старый экран)"
+                              },
+                              "typePage": 3,
+                              "page": true,
+                              "templatePage": "kppOldOPNZ",
+                              "visible": false
+                          },
+                          "level": 3,
+                          "revision": "937c7168-376c-4e30-9044-4da2fbf2e42b",
+                          "tags": null
+                      },
+                      {
+                          "id": "ebfc34d1-d431-4f9c-96ac-cb9505e9042e",
+                          "name": "Резервуары товарных автобензинов",
+                          "number": 3,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Резервуары товарных автобензинов"
+                              },
+                              "typePage": 6,
+                              "page": true,
+                              "visible": true,
+                              "templatePage": "pageWithTableBottom"
+                          },
+                          "level": 3,
+                          "revision": "be3be03c-a37e-4cd6-9a52-401de5e7768c",
+                          "tags": null
+                      },
+                      {
+                          "id": "dcf43744-be6b-4f04-8cf7-13070d4ea240",
+                          "name": "TEST DYNAMIC LIST",
+                          "number": 9,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "TEST DYNAMIC LIST"
+                              },
+                              "typePage": 6,
+                              "page": true,
+                              "visible": false,
+                              "templatePage": "templatePageTwo"
+                          },
+                          "level": 3,
+                          "revision": "b4e7c07e-b373-410e-b1b4-b796318e271a",
+                          "tags": null
+                      },
+                      {
+                          "id": "7f200b91-e56a-42b6-9823-d273269b7aa0",
+                          "name": "Резервуары компонентов автобензинов",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Резервуары компонентов автобензинов"
+                              },
+                              "typePage": 6,
+                              "page": true,
+                              "visible": true,
+                              "templatePage": "pageWithTableBottom"
+                          },
+                          "level": 3,
+                          "revision": "bd0bd5f5-ff18-499b-b2a9-a481dee1fda7",
+                          "tags": null
+                      },
+                      {
+                          "id": "2d71de30-8dcf-4643-a0fb-7fd625477b1f",
+                          "name": "Экран выработки компонентов",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Экран выработки компонентов"
+                              },
+                              "typePage": 3,
+                              "oldPage": true,
+                              "page": true,
+                              "visible": false,
+                              "startEditDatetime": "2023-04-17T12:19:40Z",
+                              "lastEditDatetime": "2023-04-17T12:19:55Z"
+                          },
+                          "level": 3,
+                          "revision": "2e173057-30d0-4d7b-ae6c-9fc358198e8d",
+                          "tags": null
+                      },
+                      {
+                          "id": "fb01fa85-985f-48cb-87f1-73e3f37d9654",
+                          "name": "Контроль приготовления партии",
+                          "number": 5,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Контроль приготовления партии"
+                              },
+                              "typePage": 3,
+                              "page": true,
+                              "templatePage": "kppOPNZ",
+                              "visible": true
+                          },
+                          "level": 3,
+                          "revision": "a8cc8eab-8f88-434e-baa9-0d6ebb767d2e",
+                          "tags": null
+                      },
+                      {
+                          "id": "17d5faa8-c876-4034-8169-a072c70307bb",
+                          "name": "Экран выработки компонентов",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Экран выработки компонентов"
+                              },
+                              "typePage": 7,
+                              "page": true,
+                              "visible": true,
+                              "startNav": true,
+                              "templatePage": "componentProductionScreen",
+                              "startEditDatetime": "2024-06-20T05:43:01Z",
+                              "lastEditDatetime": "2024-07-03T04:46:42Z"
+                          },
+                          "level": 3,
+                          "revision": "eaca0f71-6277-43bb-b06c-38d3ca67d3c2",
+                          "tags": null
+                      },
+                      {
+                          "id": "d9d778a0-01e0-4681-bfa2-38c6521cd1b5",
+                          "name": "Резервуары товарных автобензинов",
+                          "number": 4,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Резервуары товарных автобензинов"
+                              },
+                              "typePage": 3,
+                              "oldPage": true,
+                              "visible": false,
+                              "page": true
+                          },
+                          "level": 3,
+                          "revision": "b224f116-c2fc-4252-97b7-85f5445a86d4",
+                          "tags": null
+                      },
+                      {
+                          "id": "ca4f7589-ea4a-44bb-966e-84f71eba743d",
+                          "name": "СТАРЫЙ ВАРИАНТ. НЕ ТРОГАТЬ, НЕ РЕДАКТИРОВАТЬ! ГОТОВИТСЯ К УДАЛЕНИЮ! Экран выработки компонентов",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "page": true,
+                              "typePage": 3,
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "СТАРЫЙ ВАРИАНТ. НЕ ТРОГАТЬ, НЕ РЕДАКТИРОВАТЬ! ГОТОВИТСЯ К УДАЛЕНИЮ! Экран выработки компонентов"
+                              },
+                              "lastEditDatetime": "2022-11-03T08:59:04Z",
+                              "editStatus": "5a5bfd34d27de865a388a228a98abf1d315f0f03b69d12cd13122bc1ec84cf35"
+                          },
+                          "level": 3,
+                          "revision": "3bad538d-3498-461a-b1b7-b1056bd393ed",
+                          "tags": null
+                      },
+                      {
+                          "id": "5277df09-69e7-4ae8-ac24-cbe4b9640c8e",
+                          "name": "Калькулятор товарных резервуаров",
+                          "number": 6,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Калькулятор товарных резервуаров"
+                              },
+                              "typePage": 3,
+                              "page": true,
+                              "templatePage": "tankCalculator",
+                              "visible": true
+                          },
+                          "level": 3,
+                          "revision": "8224b2ca-6527-46c4-8cb8-84730bb4e725",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "45bb6c64-3a33-43b3-b688-ad9830f2b504",
+                  "name": "Тестовая цепочка для ПСИ/ПМИ",
+                  "number": 50,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Тестовая цепочка для ПСИ/ПМИ"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "5ca8344e-960e-4f01-8669-fcda737fd8b5",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "e492d13f-c9be-4f21-980b-cafc87ff44d7",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "lastEditDatetime": "2024-01-24T07:46:16Z",
+                              "startEditDatetime": "2024-01-24T07:46:04Z"
+                          },
+                          "level": 3,
+                          "revision": "bdc157ea-3361-4fd4-95b4-dbc5d10ad173",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "88fa672f-4944-4c02-8508-354040e1d759",
+                  "name": "Цепочка риформинга",
+                  "number": 2,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка риформинга"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "1caa623c-f111-4d45-b827-7ac8999026e6",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "4c9bd2ba-6b7a-4227-a62a-4d55dbef89a1",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "lastEditDatetime": "2024-06-20T08:03:17Z",
+                              "startEditDatetime": "2024-06-20T08:03:15Z"
+                          },
+                          "level": 3,
+                          "revision": "d56db9e2-cdee-453b-ae52-8a1e41f2877c",
+                          "tags": null
+                      },
+                      {
+                          "id": "66c30ca3-37a1-4276-9dd7-6be1305a94a0",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "lastEditDatetime": "2024-07-03T04:50:56Z",
+                              "startEditDatetime": "2024-07-03T04:50:18Z"
+                          },
+                          "level": 3,
+                          "revision": "b27f3095-23b6-4d52-aa22-5c263232c1ed",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "b0ca8709-38cf-4e8b-bb0f-b216045c6ca2",
+                  "name": "Цепочка крекинга",
+                  "number": 4,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка крекинга"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "7107c2d4-255b-4216-ac79-ee111be839c6",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "aaf69757-4a20-4341-8159-4da0c12372dc",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "page": true,
+                              "typePage": 2,
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "lastEditDatetime": "2024-07-03T04:56:47Z",
+                              "startEditDatetime": "2024-07-03T04:51:03Z"
+                          },
+                          "level": 3,
+                          "revision": "d4c1fde6-bf11-4e19-94c9-900985551b08",
+                          "tags": null
+                      },
+                      {
+                          "id": "7f85e8a7-8f04-4580-8922-db924bdec760",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "lastEditDatetime": "2024-04-04T10:08:17Z",
+                              "startEditDatetime": "2024-04-04T10:08:11Z"
+                          },
+                          "level": 3,
+                          "revision": "9cce33fa-2dda-495f-876a-f585b29fe02d",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "1366afe5-0946-4a47-b1e7-2f2e66c68f00",
+                  "name": "Цепочка алкилации + МТБЭ",
+                  "number": 5,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка алкилации + МТБЭ"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "3815498a-483b-4189-82d0-07606f4c2347",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "1270a234-1fce-4fad-a977-4d73edbe4b01",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "lastEditDatetime": "2023-03-01T09:41:22Z"
+                          },
+                          "level": 3,
+                          "revision": "c7288168-e6e6-43e0-a685-db9c79a3a755",
+                          "tags": null
+                      },
+                      {
+                          "id": "0311de64-c32b-45a4-9e65-4b920c4969eb",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "lastEditDatetime": "2024-07-03T04:58:37Z",
+                              "startEditDatetime": "2024-07-03T04:57:02Z"
+                          },
+                          "level": 3,
+                          "revision": "a3579dac-1e6f-408f-b4f8-7c2cc5295771",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "a5a8e790-4e5b-43ad-8570-f0c0eb1ae75b",
+                  "name": "Цепочка изомеризации",
+                  "number": 3,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка изомеризации"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "e336e79d-777e-4188-8f7a-921f30173dd7",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "9a868406-a564-4709-9537-645f727f7be5",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "lastEditDatetime": "2024-07-03T04:50:14Z",
+                              "startEditDatetime": "2024-07-03T04:46:46Z"
+                          },
+                          "level": 3,
+                          "revision": "2a3bb33b-4dee-4b14-afdc-fb69dcab2cfa",
+                          "tags": null
+                      },
+                      {
+                          "id": "49005dc3-a222-463e-b945-a6b67acd31ba",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "lastEditDatetime": "2024-04-09T03:53:21Z",
+                              "startEditDatetime": "2024-04-09T03:53:20Z"
+                          },
+                          "level": 3,
+                          "revision": "4701a273-1a97-4e7a-a62b-1fbd7ea31065",
+                          "tags": null
+                      }
+                  ]
+              }
+          ],
+          "tags": null,
+          "parentId": null
+      },
+      {
+          "id": "895fb00f-ada5-4a2c-983b-e8ed888f1f49",
+          "number": 50,
+          "name": "Диагностика ВАК",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Диагностика ВАК"
+              },
+              "typePage": 4,
+              "visible": true,
+              "page": true,
+              "templateModule": "dvqaONPZ"
+          },
+          "level": 1,
+          "children": null,
+          "tags": null,
+          "parentId": null
+      },
+      {
+          "id": "59d106e9-48af-442e-8680-e626b342922f",
+          "number": 80,
+          "name": "Тестовая цепочка",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Тестовая цепочка"
+              },
+              "typePage": 4,
+              "visible": false
+          },
+          "level": 1,
+          "children": [
+              {
+                  "id": "821741d0-01a4-4803-bbe7-a815cc9a349d",
+                  "name": "Цепочка тест",
+                  "number": 1,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка тест"
+                      },
+                      "typePage": 2,
+                      "visible": false
+                  },
+                  "level": 2,
+                  "revision": "25eae664-0f94-44e6-a71b-b2f318113366",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "f355fc4f-a0ab-4f94-9f65-0786e3ae3544",
+                          "name": "",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": ""
+                              },
+                              "page": true,
+                              "visible": "false"
+                          },
+                          "level": 3,
+                          "revision": "7cf52240-fd03-4303-b40c-a3a32980da17",
+                          "tags": null
+                      },
+                      {
+                          "id": "3bc1d99b-9d49-4e26-9936-449a2b8873bd",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "lastEditDatetime": "2024-06-26T09:21:26Z",
+                              "startEditDatetime": "2024-06-26T09:01:51Z"
+                          },
+                          "level": 3,
+                          "revision": "e3bfef88-09c6-41f2-a529-fb05489a29ab",
+                          "tags": null
+                      },
+                      {
+                          "id": "37390de9-a62b-480a-9c34-0d360ebe328f",
+                          "name": "Схема для тестирования привязки тегов",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема для тестирования привязки тегов"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "lastEditDatetime": "2024-06-26T07:35:04Z",
+                              "startEditDatetime": "2024-06-26T07:09:53Z"
+                          },
+                          "level": 3,
+                          "revision": "b862d897-c421-411c-81dc-e7769d8ffb1c",
+                          "tags": null
+                      }
+                  ]
+              }
+          ],
+          "tags": null,
+          "parentId": null
+      },
+      {
+          "id": "aebd1575-f6a5-48ca-9c14-24b93a5f3d8b",
+          "number": 40,
+          "name": "Экспресс-оценка ИТК",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Экспресс-оценка ИТК"
+              },
+              "typePage": 4,
+              "visible": true,
+              "page": true,
+              "templateModule": "itkONPZ"
+          },
+          "level": 1,
+          "children": null,
+          "tags": null,
+          "parentId": null
+      },
+      {
+          "id": "2afcd5bd-6d23-4e4b-a125-dd8f773ef513",
+          "number": 10,
+          "name": "Дизельная цепочка",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Дизельная цепочка"
+              },
+              "typePage": 4,
+              "visible": true
+          },
+          "level": 1,
+          "children": [
+              {
+                  "id": "fd1d2410-b7a9-4bd7-a8cb-3336957fb83f",
+                  "name": "Цепочка ДТЛ",
+                  "number": 2,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка ДТЛ"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "dfe50b0d-4bdc-4a92-b923-42e68b7cc76a",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "4949bd4e-496b-4c55-9a81-e760d7eef6a5",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "lastEditDatetime": "2024-07-03T05:21:42Z",
+                              "startEditDatetime": "2024-07-03T04:46:50Z"
+                          },
+                          "level": 3,
+                          "revision": "bf3d2cf3-c461-42f5-824e-7e433db6314f",
+                          "tags": null
+                      },
+                      {
+                          "id": "9430fa85-b8b2-4e71-ac69-dbf917e99657",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "lastEditDatetime": "2022-12-12T10:44:23Z"
+                          },
+                          "level": 3,
+                          "revision": "6126b9e8-12fa-4881-8637-51102ffca01d",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "07bd267f-ccac-406e-bc07-c70cb9668049",
+                  "name": "Цепочка ТС/РТ/Jet A-1",
+                  "number": 4,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка ТС/РТ/Jet A-1"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "2ef94512-1f35-4b84-af7f-370e5c09117f",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "a9fa7f44-47fe-4e7e-a371-7fede9a105c1",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "lastEditDatetime": "2023-04-20T04:11:52Z",
+                              "startEditDatetime": "2023-04-20T04:11:44Z"
+                          },
+                          "level": 3,
+                          "revision": "cd950f7c-f346-4529-bc83-e9938ef33b94",
+                          "tags": null
+                      },
+                      {
+                          "id": "d710f136-7683-4bd4-a1ed-6e19f867b725",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "lastEditDatetime": "2024-07-03T05:00:35Z",
+                              "startEditDatetime": "2024-07-03T04:59:38Z"
+                          },
+                          "level": 3,
+                          "revision": "acacf9e9-4cfd-4899-bf93-fe6415a46eb1",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "f65653e5-38e3-4048-9528-f8f645a2e418",
+                  "name": "Главный экран дизельной цепочки",
+                  "number": 1,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Главный экран дизельной цепочки"
+                      },
+                      "typePage": 5,
+                      "visible": true,
+                      "startNav": true
+                  },
+                  "level": 2,
+                  "revision": "dc14ea34-83a0-4521-b295-0f3ebb5d3f00",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "c7716b36-a970-473a-9cc7-34a175e9b293",
+                          "name": "Резервуары компонентов ДТ",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Резервуары компонентов ДТ"
+                              },
+                              "typePage": 6,
+                              "page": true,
+                              "visible": true,
+                              "templatePage": "pageWithTableBottom"
+                          },
+                          "level": 3,
+                          "revision": "6cd9c76d-4536-4c6d-ab1b-677db5d666d0",
+                          "tags": null
+                      },
+                      {
+                          "id": "db5026bf-6430-4c58-8acd-59b4c2ad763c",
+                          "name": "Резервуары компонентов ДТ",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Резервуары компонентов ДТ"
+                              },
+                              "typePage": 3,
+                              "page": true,
+                              "visible": false,
+                              "oldPage": true
+                          },
+                          "level": 3,
+                          "revision": "14c5cc85-2dc1-4d7d-bfb1-484b260fc277",
+                          "tags": null
+                      },
+                      {
+                          "id": "ea413bee-f76c-4e8c-8a9a-e508ede2402a",
+                          "name": "Резервуары товарных ДТ",
+                          "number": 3,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Резервуары товарных ДТ"
+                              },
+                              "typePage": 6,
+                              "page": true,
+                              "visible": true,
+                              "templatePage": "pageWithTableBottom"
+                          },
+                          "level": 3,
+                          "revision": "19b129d8-1118-4cc9-8b0a-05a3b500d931",
+                          "tags": null
+                      },
+                      {
+                          "id": "8d9e52d6-1bac-4339-9578-2bdd1bf5f340",
+                          "name": "Рецептура ДТ",
+                          "number": 6,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Рецептура ДТ"
+                              },
+                              "typePage": 3,
+                              "page": true,
+                              "templatePage": "recipeDtONPZ",
+                              "visible": true
+                          },
+                          "level": 3,
+                          "revision": "f9c4ed10-0141-4e5e-b4b6-f48ec10b6e6e",
+                          "tags": null
+                      },
+                      {
+                          "id": "e54101bb-44e7-437c-b924-11620d5dbcab",
+                          "name": "Схема для главного экрана дизельной цепочки",
+                          "number": 10,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема для главного экрана дизельной цепочки"
+                              },
+                              "typePage": 2,
+                              "page": true,
+                              "visible": false,
+                              "lastEditDatetime": "2024-06-10T08:09:10Z",
+                              "startEditDatetime": "2024-06-10T08:09:07Z"
+                          },
+                          "level": 3,
+                          "revision": "7fdf7a2a-8232-4eaf-92f2-7cc7003bd0b9",
+                          "tags": null
+                      },
+                      {
+                          "id": "f85ebc9e-1e55-43bb-a090-b989019a129e",
+                          "name": "Резервуары товарных ДТ",
+                          "number": 3,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Резервуары товарных ДТ"
+                              },
+                              "typePage": 3,
+                              "page": true,
+                              "visible": false,
+                              "oldPage": true
+                          },
+                          "level": 3,
+                          "revision": "5d9a8206-370b-4cc0-829b-f424541f6788",
+                          "tags": null
+                      },
+                      {
+                          "id": "3a251f62-1d20-4e21-820d-01ff6d48a55f",
+                          "name": "Экран выработки компонентов",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Экран выработки компонентов"
+                              },
+                              "typePage": 7,
+                              "page": true,
+                              "visible": true,
+                              "startNav": true,
+                              "templatePage": "componentProductionScreen",
+                              "startEditDatetime": "2024-06-20T06:03:55Z",
+                              "lastEditDatetime": "2024-07-01T09:15:48Z"
+                          },
+                          "level": 3,
+                          "revision": "4c536e8e-ea30-45c3-a484-d4c61ae5d17e",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "4f9d626c-e349-4127-b401-79936b1a1b2c",
+                  "name": "Цепочка ДТЗ/ДТА",
+                  "number": 3,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка ДТЗ/ДТА"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "f8235332-db37-4c5f-84da-528cfb7a67a8",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "3300de2e-16e2-40f6-9dcd-0614b12eb905",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "lastEditDatetime": "2024-05-20T12:26:51Z",
+                              "startEditDatetime": "2024-05-20T12:26:36Z"
+                          },
+                          "level": 3,
+                          "revision": "27081482-fc79-4286-82e4-3dfdaf3d7259",
+                          "tags": null
+                      },
+                      {
+                          "id": "4a0bc0a1-df18-416b-b36d-440a2477f138",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "lastEditDatetime": "2024-07-03T04:59:29Z",
+                              "startEditDatetime": "2024-07-03T04:58:45Z"
+                          },
+                          "level": 3,
+                          "revision": "ec3f3565-a6ed-4d6a-bc62-cda58abcd295",
+                          "tags": null
+                      }
+                  ]
+              }
+          ],
+          "tags": null,
+          "parentId": null
+      },
+      {
+          "id": "d65804d2-2ac9-4e2f-acda-51152d68c151",
+          "number": 70,
+          "name": "Схема для главного экрана бензиновой цепочки",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Схема для главного экрана бензиновой цепочки"
+              },
+              "page": true,
+              "typePage": 2,
+              "lastEditDatetime": "2024-07-01T10:32:37Z",
+              "visible": false,
+              "startEditDatetime": "2024-07-01T10:16:30Z"
+          },
+          "level": 1,
+          "children": null,
+          "tags": null,
+          "parentId": null
+      },
+      {
+          "id": "63dbd11e-dbaa-45b5-8ac7-de67e570f9ad",
+          "number": 20,
+          "name": "Цепочка ароматики",
+          "visibility": "true",
+          "cell": {
+              "componentName": "navigation",
+              "data": {
+                  "name": "Цепочка ароматики"
+              },
+              "typePage": 4,
+              "visible": true
+          },
+          "level": 1,
+          "children": [
+              {
+                  "id": "8fa76bab-d022-4fb4-b9f1-ff47d339eab5",
+                  "name": "Цепочка ароматики",
+                  "number": 2,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Цепочка ароматики"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "ab13e9b1-0bc5-4a59-8ab7-d34dae76d518",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "06185223-5cc4-4717-b5f2-fe87ca1a6fcc",
+                          "name": "Схема для главного экрана цепочки ароматики",
+                          "number": 20,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема для главного экрана цепочки ароматики"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": false,
+                              "startEditDatetime": "2024-07-01T08:27:47Z",
+                              "lastEditDatetime": "2024-07-01T08:27:49Z"
+                          },
+                          "level": 2,
+                          "revision": "5818343f-2ec9-49ff-9ec0-a2c73fdfacef",
+                          "tags": null
+                      },
+                      {
+                          "id": "faf0a1c8-2b60-4dc4-800a-0dea895e18c4",
+                          "name": "Схема",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Схема"
+                              },
+                              "page": true,
+                              "typePage": 2,
+                              "visible": true,
+                              "templatePage": "schemaONPZ",
+                              "startEditDatetime": "2024-07-03T05:01:44Z",
+                              "lastEditDatetime": "2024-07-03T05:02:41Z"
+                          },
+                          "level": 3,
+                          "revision": "c0609d54-492c-47b0-9ef1-c36680ce32d7",
+                          "tags": null
+                      },
+                      {
+                          "id": "fa643c91-07b1-4f3d-ad48-bfc14bba76f7",
+                          "name": "Карточки потоков",
+                          "number": 2,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Карточки потоков"
+                              },
+                              "page": true,
+                              "typePage": 1,
+                              "visible": true,
+                              "templatePage": "schemaCardsONPZ",
+                              "startEditDatetime": "2024-07-01T09:07:11Z",
+                              "lastEditDatetime": "2024-07-01T09:07:14Z"
+                          },
+                          "level": 3,
+                          "revision": "1e288150-c164-4f83-bae4-1352d05c9df9",
+                          "tags": null
+                      }
+                  ]
+              },
+              {
+                  "id": "ef7c487b-09dd-4f4a-bb61-3714c6700670",
+                  "name": "Главный экран цепочки ароматики",
+                  "number": 1,
+                  "visibility": "true",
+                  "cell": {
+                      "componentName": "navigation",
+                      "data": {
+                          "name": "Главный экран цепочки ароматики"
+                      },
+                      "typePage": 5,
+                      "visible": true
+                  },
+                  "level": 2,
+                  "revision": "446d66b9-cacc-4bd4-8240-fff9bb812a67",
+                  "tags": null,
+                  "children": [
+                      {
+                          "id": "0e0ed655-9280-4287-8120-fd0993be4cc5",
+                          "name": "Экран выработки компонентов",
+                          "number": 1,
+                          "visibility": "true",
+                          "cell": {
+                              "componentName": "navigation",
+                              "data": {
+                                  "name": "Экран выработки компонентов"
+                              },
+                              "typePage": 7,
+                              "page": true,
+                              "visible": true,
+                              "templatePage": "componentProductionScreen",
+                              "startEditDatetime": "2024-07-01T09:08:16Z",
+                              "lastEditDatetime": "2024-07-01T09:15:40Z"
+                          },
+                          "level": 3,
+                          "revision": "0de9e96a-0c68-4456-9b23-bf77c5dd0852",
+                          "tags": null
+                      }
+                  ]
+              }
+          ],
+          "tags": null,
+          "parentId": null
+      }
+  ],
+  "status": true,
+  "error": null
+}
