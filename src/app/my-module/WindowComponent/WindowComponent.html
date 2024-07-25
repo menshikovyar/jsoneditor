@@ -1,0 +1,20 @@
+<div class="select-wrapper">
+  <div class="page">
+    <label for="pages" style="color: white; margin-bottom: 10px; font-size: 14px;">Страницы</label>
+    <prizm-input-layout label="Страницы" style="margin-bottom: 10px;">
+      <prizm-input-select #input [formControl]="control" [items]="items" [prizmHintCanShow]="true">
+        <ng-template let-item="item">
+          {{ item }}
+        </ng-template>
+      </prizm-input-select>
+      <ng-template [control]="input" prizmInputStatusText></ng-template>
+    </prizm-input-layout>
+
+    <label for="prizm-select" style="color: white; margin-bottom: 10px; font-size: 14px;">Фильтр</label>
+    <div class="switcher-wrapper" style="margin-bottom: 3px;">
+      <prizm-switcher-outer-l-example></prizm-switcher-outer-l-example>
+    </div>
+    <prizm-input-basic-example></prizm-input-basic-example>
+    <prizm-tree-base-example [selectedPageId]="selectedPageId" [treeData]="treeData"></prizm-tree-base-example>
+  </div>
+</div>

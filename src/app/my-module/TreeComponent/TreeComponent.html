@@ -1,0 +1,19 @@
+<ng-container *ngIf="treeData.length > 0">
+  <ng-container *ngFor="let item of treeData">
+    <prizm-tree-item>
+      {{ item.name }}
+      <ng-container *ngIf="item.children && item.children.length > 0">
+        <ng-container *ngFor="let child of item.children">
+          <prizm-tree-item>
+            {{ child.name }}
+            <ng-container *ngIf="child.children && child.children.length > 0">
+              <prizm-tree-item *ngFor="let grandChild of child.children">
+                {{ grandChild.name }}
+              </prizm-tree-item>
+            </ng-container>
+          </prizm-tree-item>
+        </ng-container>
+      </ng-container>
+    </prizm-tree-item>
+  </ng-container>
+</ng-container>

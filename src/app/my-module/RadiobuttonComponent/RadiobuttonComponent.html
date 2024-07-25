@@ -1,0 +1,40 @@
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 28px;">
+  <button (click)="showSaveDialog()" type="button" prizmButton>
+    Сохранить изменения
+  </button>
+  <button (click)="showDeleteDialog()" type="button" prizmButton appearance="danger">
+    Удалить элемент
+  </button>
+</div>
+
+<ng-template #footerTemp let-completeWith="completeWith">
+  <div class="custom-footer">
+    <button
+      (click)="completeWith('secondary')"
+      prizmButton
+      appearance="secondary"
+      appearanceType="fill"
+      size="l">
+      Отмена
+    </button>
+    <button (click)="completeWith('primary')" prizmButton appearance="primary" appearanceType="fill" size="l">
+      Сохранить
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #deleteFooterTemp let-completeWith="completeWith">
+  <div class="custom-footer">
+    <button
+      (click)="completeWith('secondary')"
+      prizmButton
+      appearance="secondary"
+      appearanceType="fill"
+      size="l">
+      Отмена
+    </button>
+      <button (click)="completeWith('danger')" prizmButton appearance="danger" appearanceType="fill" size="l" class="delete-button">
+        Удалить
+      </button>
+  </div>
+</ng-template>
